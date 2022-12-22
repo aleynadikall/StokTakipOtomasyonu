@@ -39,7 +39,8 @@ namespace StokTakipOtomasyonu
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            frmUrunListele listele = new frmUrunListele();
+            listele.ShowDialog();
         }
 
         private void btnSatisLis_Click(object sender, EventArgs e)

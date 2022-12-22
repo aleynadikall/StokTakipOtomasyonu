@@ -82,6 +82,12 @@
     <Compile Include="frmUrunEkle.Designer.cs">
       <DependentUpon>frmUrunEkle.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUrunListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUrunListele.Designer.cs">
+      <DependentUpon>frmUrunListele.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmKategori.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUrunEkle.resx">
       <DependentUpon>frmUrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUrunListele.resx">
+      <DependentUpon>frmUrunListele.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
