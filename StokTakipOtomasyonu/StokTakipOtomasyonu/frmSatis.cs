@@ -49,7 +49,8 @@ namespace StokTakipOtomasyonu
 
         private void btnUrunEk_Click(object sender, EventArgs e)
         {
-
+            frmUrunEkle ekle = new frmUrunEkle();
+            ekle.ShowDialog();
         }
 
         private void btnMusEkle_Click(object sender, EventArgs e)
@@ -62,6 +63,18 @@ namespace StokTakipOtomasyonu
         {
             frmMusteriListeleme listele = new frmMusteriListeleme();
             listele.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmMarka marka = new frmMarka();
+            marka.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmKategori kategori = new frmKategori();
+            kategori.ShowDialog();
         }
     }
 }

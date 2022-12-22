@@ -55,6 +55,8 @@ namespace StokTakipOtomasyonu
             this.label9 = new System.Windows.Forms.Label();
             this.lblGenelToplam = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnSatisLis = new System.Windows.Forms.Button();
             this.btnUrunEk = new System.Windows.Forms.Button();
             this.btnUrLis = new System.Windows.Forms.Button();
@@ -291,14 +293,17 @@ namespace StokTakipOtomasyonu
             // lblGenelToplam
             // 
             this.lblGenelToplam.AutoSize = true;
-            this.lblGenelToplam.Location = new System.Drawing.Point(544, 495);
+            this.lblGenelToplam.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblGenelToplam.Location = new System.Drawing.Point(530, 495);
             this.lblGenelToplam.Name = "lblGenelToplam";
-            this.lblGenelToplam.Size = new System.Drawing.Size(28, 17);
+            this.lblGenelToplam.Size = new System.Drawing.Size(64, 17);
             this.lblGenelToplam.TabIndex = 8;
-            this.lblGenelToplam.Text = "     ";
+            this.lblGenelToplam.Text = "              ";
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnSatisLis);
             this.panel1.Controls.Add(this.btnUrunEk);
             this.panel1.Controls.Add(this.btnUrLis);
@@ -310,9 +315,29 @@ namespace StokTakipOtomasyonu
             this.panel1.Size = new System.Drawing.Size(850, 119);
             this.panel1.TabIndex = 9;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(749, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(69, 34);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Kategori";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(748, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(70, 34);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Marka";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btnSatisLis
             // 
-            this.btnSatisLis.Location = new System.Drawing.Point(646, 33);
+            this.btnSatisLis.Location = new System.Drawing.Point(569, 27);
             this.btnSatisLis.Name = "btnSatisLis";
             this.btnSatisLis.Size = new System.Drawing.Size(123, 51);
             this.btnSatisLis.TabIndex = 4;
@@ -322,7 +347,7 @@ namespace StokTakipOtomasyonu
             // 
             // btnUrunEk
             // 
-            this.btnUrunEk.Location = new System.Drawing.Point(368, 33);
+            this.btnUrunEk.Location = new System.Drawing.Point(291, 27);
             this.btnUrunEk.Name = "btnUrunEk";
             this.btnUrunEk.Size = new System.Drawing.Size(123, 51);
             this.btnUrunEk.TabIndex = 3;
@@ -332,7 +357,7 @@ namespace StokTakipOtomasyonu
             // 
             // btnUrLis
             // 
-            this.btnUrLis.Location = new System.Drawing.Point(507, 33);
+            this.btnUrLis.Location = new System.Drawing.Point(430, 27);
             this.btnUrLis.Name = "btnUrLis";
             this.btnUrLis.Size = new System.Drawing.Size(123, 51);
             this.btnUrLis.TabIndex = 2;
@@ -342,7 +367,7 @@ namespace StokTakipOtomasyonu
             // 
             // btnMusLis
             // 
-            this.btnMusLis.Location = new System.Drawing.Point(229, 33);
+            this.btnMusLis.Location = new System.Drawing.Point(152, 27);
             this.btnMusLis.Name = "btnMusLis";
             this.btnMusLis.Size = new System.Drawing.Size(123, 51);
             this.btnMusLis.TabIndex = 1;
@@ -352,7 +377,7 @@ namespace StokTakipOtomasyonu
             // 
             // btnMusEkle
             // 
-            this.btnMusEkle.Location = new System.Drawing.Point(90, 33);
+            this.btnMusEkle.Location = new System.Drawing.Point(13, 27);
             this.btnMusEkle.Name = "btnMusEkle";
             this.btnMusEkle.Size = new System.Drawing.Size(123, 51);
             this.btnMusEkle.TabIndex = 0;
@@ -423,6 +448,8 @@ namespace StokTakipOtomasyonu
         private System.Windows.Forms.Button btnUrLis;
         private System.Windows.Forms.Button btnMusLis;
         private System.Windows.Forms.Button btnMusEkle;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
