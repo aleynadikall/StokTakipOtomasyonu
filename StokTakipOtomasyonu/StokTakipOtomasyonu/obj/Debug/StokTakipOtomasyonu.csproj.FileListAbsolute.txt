@@ -1,0 +1,12 @@
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.csprojAssemblyReference.cache
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmMusteriEkle.resources
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmSatis.resources
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.Properties.Resources.resources
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.csproj.GenerateResource.cache
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\bin\Debug\StokTakipOtomasyonu.exe.config
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\bin\Debug\StokTakipOtomasyonu.exe
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\bin\Debug\StokTakipOtomasyonu.pdb
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.exe
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.pdb
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmMusteriListeleme.resources
