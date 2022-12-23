@@ -305,9 +305,8 @@ namespace StokTakipOtomasyonu
             this.lblGenelToplam.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblGenelToplam.Location = new System.Drawing.Point(530, 495);
             this.lblGenelToplam.Name = "lblGenelToplam";
-            this.lblGenelToplam.Size = new System.Drawing.Size(64, 17);
+            this.lblGenelToplam.Size = new System.Drawing.Size(0, 17);
             this.lblGenelToplam.TabIndex = 8;
-            this.lblGenelToplam.Text = "              ";
             // 
             // panel1
             // 
@@ -396,6 +395,7 @@ namespace StokTakipOtomasyonu
             // 
             // frmSatis
             // 
+            this.AcceptButton = this.btnEkle;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;

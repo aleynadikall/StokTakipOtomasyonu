@@ -14,3 +14,4 @@ C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyo
 C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmMarka.resources
 C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmUrunEkle.resources
 C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmUrunListele.resources
+C:\Users\aleyy\Desktop\StokTakipOtomasyonu\StokTakipOtomasyonu\StokTakipOtomasyonu\obj\Debug\StokTakipOtomasyonu.frmSatisListele.resources
