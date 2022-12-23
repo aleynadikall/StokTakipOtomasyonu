@@ -142,6 +142,7 @@ namespace StokTakipOtomasyonu
             this.txtTC.Name = "txtTC";
             this.txtTC.Size = new System.Drawing.Size(100, 22);
             this.txtTC.TabIndex = 0;
+            this.txtTC.TextChanged += new System.EventHandler(this.txtTC_TextChanged);
             // 
             // groupBox2
             // 
@@ -222,6 +223,7 @@ namespace StokTakipOtomasyonu
             this.txtSatisFiyati.Name = "txtSatisFiyati";
             this.txtSatisFiyati.Size = new System.Drawing.Size(100, 22);
             this.txtSatisFiyati.TabIndex = 3;
+            this.txtSatisFiyati.TextChanged += new System.EventHandler(this.txtSatisFiyati_TextChanged);
             // 
             // txtMiktar
             // 
@@ -229,6 +231,9 @@ namespace StokTakipOtomasyonu
             this.txtMiktar.Name = "txtMiktar";
             this.txtMiktar.Size = new System.Drawing.Size(100, 22);
             this.txtMiktar.TabIndex = 2;
+            this.txtMiktar.Text = "1";
+            this.txtMiktar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMiktar.TextChanged += new System.EventHandler(this.txtMiktar_TextChanged);
             // 
             // txtUrunAdi
             // 
@@ -243,6 +248,7 @@ namespace StokTakipOtomasyonu
             this.txtBarkod.Name = "txtBarkod";
             this.txtBarkod.Size = new System.Drawing.Size(100, 22);
             this.txtBarkod.TabIndex = 0;
+            this.txtBarkod.TextChanged += new System.EventHandler(this.txtBarkod_TextChanged);
             // 
             // btnEkle
             // 
@@ -252,6 +258,7 @@ namespace StokTakipOtomasyonu
             this.btnEkle.TabIndex = 3;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnSil
             // 
@@ -261,6 +268,7 @@ namespace StokTakipOtomasyonu
             this.btnSil.TabIndex = 4;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnSatisIptal
             // 
@@ -270,6 +278,7 @@ namespace StokTakipOtomasyonu
             this.btnSatisIptal.TabIndex = 5;
             this.btnSatisIptal.Text = "Satış İptal";
             this.btnSatisIptal.UseVisualStyleBackColor = true;
+            this.btnSatisIptal.Click += new System.EventHandler(this.btnSatisIptal_Click);
             // 
             // btnSatisYap
             // 
@@ -293,7 +302,7 @@ namespace StokTakipOtomasyonu
             // lblGenelToplam
             // 
             this.lblGenelToplam.AutoSize = true;
-            this.lblGenelToplam.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblGenelToplam.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblGenelToplam.Location = new System.Drawing.Point(530, 495);
             this.lblGenelToplam.Name = "lblGenelToplam";
             this.lblGenelToplam.Size = new System.Drawing.Size(64, 17);
@@ -317,9 +326,9 @@ namespace StokTakipOtomasyonu
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(749, 53);
+            this.button2.Location = new System.Drawing.Point(736, 53);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(69, 34);
+            this.button2.Size = new System.Drawing.Size(82, 34);
             this.button2.TabIndex = 6;
             this.button2.Text = "Kategori";
             this.button2.UseVisualStyleBackColor = true;
@@ -327,9 +336,9 @@ namespace StokTakipOtomasyonu
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(748, 12);
+            this.button1.Location = new System.Drawing.Point(735, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 34);
+            this.button1.Size = new System.Drawing.Size(83, 34);
             this.button1.TabIndex = 5;
             this.button1.Text = "Marka";
             this.button1.UseVisualStyleBackColor = true;
@@ -404,6 +413,7 @@ namespace StokTakipOtomasyonu
             this.Name = "frmSatis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Satış Sayfası";
+            this.Load += new System.EventHandler(this.frmSatis_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
